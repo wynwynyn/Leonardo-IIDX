@@ -1,5 +1,7 @@
-# Yuancon now has bright LEDs!! 
-### (after a lot of modification and using an Arduino Leonardo instead of Yuan's STM32 based board)
+# Yuancon now has bright LEDs!!*
+### *after a lot of modification and using an Arduino Leonardo instead of Yuan's STM32 based board
+
+Current version: v1.1.2
 
 As most people know, the Yuancon's LEDs are pretty dim. The aim of this project was to solve that and add a Dao-type secondary USB port to power the LEDs externally (using another USB port). This was achieved by drilling a hole in the Yuancon's casing next to the existing USB port, and mounting a Neutrik USB socket to act as an external port to the internal Arduino. The existing USB-C port was repurposed to provide a 5v power source to the LEDs.
 
