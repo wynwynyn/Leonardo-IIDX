@@ -19,7 +19,7 @@ Only four buttons are shown - this would obviously be the 7 keys, and however ma
 
 #### Code for maximum Infinitas compatibility 
 
-The code is stripped out and modified version of LizardBean's code (https://github.com/lizardbeans/iidxsdvx). The LED related code has been removed, and it has been tweaked to work as well as possible with the encoder used in Yuan's controllers - at the moment it works flawlessly, but is very sensitive. In the future I may try and implement some code to enable the ability to adjust this sensitivity, or how much you have to turn the turntable before it fires. This will mainly be for preference - I haven't had any complaints yet! 
+The code is a stripped out and modified version of LizardBean's code (https://github.com/lizardbeans/iidxsdvx). The LED related code has been removed, and it has been tweaked to work as well as possible with the encoder used in Yuan's controllers - at the moment it works flawlessly, but is very sensitive. In the future I may try and implement some code to enable the ability to adjust this sensitivity, or how much you have to turn the turntable before it fires. This will mainly be for preference - I haven't had any complaints yet! 
 
 There are also now two boot modes for either analogue turntable, or digital for use with LR2. Default boot of Arduino puts the turntable in analogue mode. This is perfect for IIDX Infinitas, or any other application that has true analogue turntable support. Hold key 7 while plugging in controller to enable Digital TT mode - turntable will report xAxis left/right, then return to 0 position. Ideal for LR2, but could do with some further tweaking to prevent misfires.
  
